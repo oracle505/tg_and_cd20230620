@@ -4,6 +4,12 @@
  * You should have received a copy of the license in this archive (see LICENSE).
  *
  * Copyright Nikolai Kudashov, 2013-2020.
+ * 登录my.telegram.org，申请api_id and api_hash，然后替换TMessagesProj/src/main/java/org/telegram/messenger/BuildVars.java文件中的APP_ID和APP_HASH字段
+
+作者：rainboy
+链接：https://juejin.cn/post/7003978718662098952
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
  */
 
 package org.telegram.messenger;
@@ -25,9 +31,11 @@ public class BuildVars {
     public static boolean CHECK_UPDATES = true;
     public static boolean NO_SCOPED_STORAGE = Build.VERSION.SDK_INT <= 29;
     public static int BUILD_VERSION = 3362;
-    public static String BUILD_VERSION_STRING = "9.6.6";
-    public static int APP_ID = 4;
-    public static String APP_HASH = "014b35b6184100b085b0d0572f9b5103";
+    public static String BUILD_VERSION_STRING = "9.66";
+//    public static int APP_ID = 4;
+    public static int APP_ID = 26879279;
+//    public static String APP_HASH = "014b35b6184100b085b0d0572f9b5103";
+    public static String APP_HASH = "3fe1bb0f4fcb42bd9bf5ac1aa0c4ec08";
 
     // SafetyNet key for Google Identity SDK, set it to empty to disable
     public static String SAFETYNET_KEY = "AIzaSyDqt8P-7F7CPCseMkOiVRgb1LY8RN1bvH8";

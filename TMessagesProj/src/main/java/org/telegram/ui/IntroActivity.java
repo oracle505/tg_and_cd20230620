@@ -4,6 +4,8 @@
  * You should have received a copy of the license in this archive (see LICENSE).
  *
  * Copyright Nikolai Kudashov, 2013-2018.
+ *
+ * 访问console.firebase.google.com，创建两个android应用程序，应用程序id分别为org.telegram.messenger和org.telegram.messenger.beta，然后下载google-services.json，复制到TMessagesProj目录下
  */
 
 package org.telegram.ui;
@@ -354,6 +356,7 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
             startPressed = true;
 
             presentFragment(new LoginActivity().setIntroView(frameContainerView, startMessagingButton), true);
+//            presentFragment(new InviteContactsActivity());
             destroyed = true;
         });
 

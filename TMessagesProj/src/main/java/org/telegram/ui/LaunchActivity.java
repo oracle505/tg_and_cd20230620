@@ -517,6 +517,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                 }
                 if (freeAccounts > 0 && availableAccount != null) {
                     presentFragment(new LoginActivity(availableAccount));
+//                    presentFragment(new InviteContactsActivity());
                     drawerLayoutContainer.closeDrawer(false);
                 } else if (!UserConfig.hasPremiumOnAccounts()) {
                     if (actionBarLayout.getFragmentStack().size() > 0) {
@@ -2614,7 +2615,8 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                                 ConnectionsManager.getInstance(currentAccount).sendRequest(req, (response, error) -> AndroidUtilities.runOnUIThread(() -> {
                                     cancelDeleteProgressDialog.dismiss();
                                     if (error == null) {
-                                        presentFragment(new LoginActivity().cancelAccountDeletion(finalPhone, params, (TLRPC.TL_auth_sentCode) response));
+//                                        presentFragment(new LoginActivity().cancelAccountDeletion(finalPhone, params, (TLRPC.TL_auth_sentCode) response));
+                                        presentFragment(new InviteContactsActivity());
                                     } else {
                                         AlertsCreator.processError(currentAccount, error, getActionBarLayout().getLastFragment(), req);
                                     }
