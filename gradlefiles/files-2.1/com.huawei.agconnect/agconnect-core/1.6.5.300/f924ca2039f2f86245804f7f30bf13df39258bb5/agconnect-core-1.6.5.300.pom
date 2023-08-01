@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.huawei.agconnect</groupId>
+  <artifactId>agconnect-core</artifactId>
+  <version>1.6.5.300</version>
+  <packaging>aar</packaging>
+  <description>
+gitUrl: https://codehub-dg-g.huawei.com/Application_Ecosystem/AGC/AGCClient/Android-Client-SDK.git
+branch: AM/AppGallery/Main
+commitId: fce170776a1bcc485a49968a75f75e85261abc44
+  </description>
+  <dependencies>
+    <dependency>
+      <groupId>com.huawei.hmf</groupId>
+      <artifactId>tasks</artifactId>
+      <version>1.5.0.300</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.huawei.hms</groupId>
+  <artifactId>availableupdate</artifactId>
+  <version>6.5.0.300</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>ui</artifactId>
+      <version>6.5.0.300</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>stats</artifactId>
+      <version>6.5.0.300</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>device</artifactId>
+      <version>6.5.0.300</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.huawei.hms</groupId>
+      <artifactId>log</artifactId>
+      <version>6.5.0.300</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,225 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/jni/CMakeLists.txt",
+    "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/jni/voip/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "tgcalls_tp-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "tgcalls_tp"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "tgcalls_tp",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libtgcalls_tp.a"
+    },
+    "tgcalls-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "tgcalls"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "tgcalls",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libtgcalls.a"
+    },
+    "flac-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "flac"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "flac",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libflac.a"
+    },
+    "lz4-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "lz4"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "lz4",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/liblz4.a"
+    },
+    "tmessages.45-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "tmessages.45"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "tmessages.45",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/build/intermediates/cxx/Debug/3p193g38/obj/x86/libtmessages.45.so",
+      "runtimeFiles": []
+    },
+    "tgvoip-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "tgvoip"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "tgvoip",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libtgvoip.a"
+    },
+    "rnnoise-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "rnnoise"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "rnnoise",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/librnnoise.a"
+    },
+    "mozjpeg-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "mozjpeg"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "mozjpeg",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libmozjpeg.a"
+    },
+    "breakpad-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "breakpad"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "breakpad",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libbreakpad.a"
+    },
+    "webp-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "webp"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "webp",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libwebp.a"
+    },
+    "sqlite-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "sqlite"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "sqlite",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libsqlite.a"
+    },
+    "openh264-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "openh264"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "openh264",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libopenh264.a"
+    },
+    "tgnet-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "tgnet"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "tgnet",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libtgnet.a"
+    },
+    "cpufeatures-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "cpufeatures"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "cpufeatures",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libcpufeatures.a"
+    },
+    "voipandroid-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "voipandroid"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "voipandroid",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/libvoipandroid.a"
+    },
+    "rlottie-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86",
+        "rlottie"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "rlottie",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/Debug/3p193g38/x86/librlottie.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "S",
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

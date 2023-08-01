@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.huawei.hmf</groupId>
+  <artifactId>tasks</artifactId>
+  <version>1.4.1.300</version>
+  <packaging>aar</packaging>
+  <description>
+gitUrl: https://git.huawei.com/AppGallery_HiAppClient/ComponentFramework.git
+branch: master
+commitId: 36532f32b930af1ab40e2c6a62173ec83c16a749
+  </description>
+</project>

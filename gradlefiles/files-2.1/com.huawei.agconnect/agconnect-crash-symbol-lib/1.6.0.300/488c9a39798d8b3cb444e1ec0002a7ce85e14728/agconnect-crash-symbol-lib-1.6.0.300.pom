@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.huawei.agconnect</groupId>
+  <artifactId>agconnect-crash-symbol-lib</artifactId>
+  <version>1.6.0.300</version>
+  <description>
+gitUrl: https://codehub-dg-g.huawei.com/application_market_business/AppGalleryConnectSDK/Android-Client-SDK.git
+branch: master
+commitId: 68746d51cd5baed28bfd90c68e235b61939e18c9
+  </description>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-core</artifactId>
+      <version>1.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>mockwebserver</artifactId>
+      <version>3.11.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

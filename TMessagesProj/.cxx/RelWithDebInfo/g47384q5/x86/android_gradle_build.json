@@ -1,0 +1,225 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/jni/CMakeLists.txt",
+    "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/jni/voip/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "webp-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "webp"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "webp",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libwebp.a"
+    },
+    "tgcalls_tp-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "tgcalls_tp"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "tgcalls_tp",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libtgcalls_tp.a"
+    },
+    "flac-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "flac"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "flac",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libflac.a"
+    },
+    "sqlite-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "sqlite"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "sqlite",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libsqlite.a"
+    },
+    "tmessages.45-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "tmessages.45"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "tmessages.45",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/build/intermediates/cxx/RelWithDebInfo/g47384q5/obj/x86/libtmessages.45.so",
+      "runtimeFiles": []
+    },
+    "lz4-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "lz4"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "lz4",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/liblz4.a"
+    },
+    "breakpad-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "breakpad"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "breakpad",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libbreakpad.a"
+    },
+    "rlottie-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "rlottie"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "rlottie",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/librlottie.a"
+    },
+    "openh264-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "openh264"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "openh264",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libopenh264.a"
+    },
+    "cpufeatures-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "cpufeatures"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "cpufeatures",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libcpufeatures.a"
+    },
+    "mozjpeg-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "mozjpeg"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "mozjpeg",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libmozjpeg.a"
+    },
+    "rnnoise-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "rnnoise"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "rnnoise",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/librnnoise.a"
+    },
+    "tgcalls-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "tgcalls"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "tgcalls",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libtgcalls.a"
+    },
+    "tgvoip-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "tgvoip"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "tgvoip",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libtgvoip.a"
+    },
+    "tgnet-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "tgnet"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "tgnet",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libtgnet.a"
+    },
+    "voipandroid-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "/home/cun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86",
+        "voipandroid"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "voipandroid",
+      "output": "/home/cun/StudioProjects/tg_and_cd20230620/TMessagesProj/.cxx/RelWithDebInfo/g47384q5/x86/libvoipandroid.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c",
+    "S"
+  ],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}
